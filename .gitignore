@@ -1,0 +1,18 @@
+# Env files — never commit secrets
+.env.local
+.env*.local
+
+# Node
+node_modules/
+.next/
+out/
+
+# Rust / Cargo
+contracts/target/
+
+# Stellar CLI
+.stellar/
+
+# OS
+.DS_Store
+Thumbs.db
